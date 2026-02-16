@@ -76,3 +76,5 @@
 ## P(Y): Probability of A. It's called Unconditional probability
 ## P(Y|X): Probability of Y given on X. Y=(spam or not spam). X=(could be features). It's Conditional probability.
 ## If P(Y∣X)=P(Y), then X gives no information about Y, and learning is not possible.
+
+## We can bridge Conditional and Unconditional probabilities, called as Joint Probability.
