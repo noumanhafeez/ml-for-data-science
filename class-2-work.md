@@ -51,3 +51,4 @@
 ## Key point
 ## 1. We don’t need exact probabilities, only which class has the highest probability.
 ## 2. Ignoring P(Features) makes computation easier and it doesn’t affect the result.
+
