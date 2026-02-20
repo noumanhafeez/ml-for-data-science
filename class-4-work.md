@@ -41,3 +41,9 @@
 ## P(machine) = count(machine)/count(total words) = 4/24 = 0.167
 ## P(deep) = count(deep)/count(total words) = 2/24 = 0.083
 ## P(like machine) = count(like machine)/count(total words) = 3/24 = 0.125
+
+
+# Now, find joint and conditional probabilities of words. For examples:
+## Find probability of word machine given that word like.
+
+## P(machine|like) = P(I).P(like|machine).
