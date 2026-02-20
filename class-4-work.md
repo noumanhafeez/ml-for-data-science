@@ -16,3 +16,34 @@
 ## P(W)= i=1∏n P(wi ∣ w1,w2,...,wi−1)
 
 ## This means: Each word depends on all previous words.
+
+
+## Exercise:
+
+## I like machine learning
+## I like deep learning
+## I enjoy machine learning
+## You like machine translation
+## You enjoy deep learning
+## We like machine learning
+
+# The task is fine: What should come after?
+## “I”
+## “You”
+## “machine”
+## “deep”
+## “like machine”
+
+# This is mainly for unigram i.e user don't want to type anything but still want prediction, like predict first word
+## Step 1: 
+## P(I) = count(I)/count(total words) = 3/24 = 0.125
+## P(You) = count(I)/count(total words) = 2/24 = 0.083
+## P(machine) = count(machine)/count(total words) = 4/24 = 0.167
+## P(deep) = count(deep)/count(total words) = 2/24 = 0.083
+## P(like machine) = count(like machine)/count(total words) = 3/24 = 0.125
+
+
+# Now, find joint and conditional probabilities of words. For examples:
+## Find probability of word machine given that word like.
+
+## P(machine|like) = P(I).P(like|machine).
