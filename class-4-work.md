@@ -47,3 +47,8 @@
 ## Find probability of word machine given that word like.
 
 ## P(machine|like) = P(I).P(like|machine).
+
+
+
+## NOTE: In this commit, I'll be discussing the n-gram architecture behind model. How they work with 
+## different kind of datasets and prompts.
